@@ -18,7 +18,7 @@ from multiprocessing import Process
 from flask import Flask,request
 app = Flask(__name__)
 
-posturl="http://3cloud.hzzyfw.com/push/data"
+posturl="*"
 device="eth1"
 localip=""
 
